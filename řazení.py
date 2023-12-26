@@ -4,7 +4,6 @@ def serad_slova(text):
     serazeny_text = ' '.join(serazena_slova)
     return serazeny_text
 
-# Příklad použití:
 slova = "pes kočka ryba had"
 vysledek = serad_slova(slova)
 print(f"Seřazená slova: {vysledek}")
